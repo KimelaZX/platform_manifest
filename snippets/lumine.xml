@@ -34,5 +34,6 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="lumine" />
 
   <!-- vendor -->
+  <project path="vendor/extra" name="platform_vendor_extra" remote="lumine" />
   <project path="vendor/lumine" name="platform_vendor_lumine" remote="lumine" />
 </manifest>
