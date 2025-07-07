@@ -38,6 +38,7 @@
 
   <!-- bootable -->
   <remove-project name="platform/bootable/deprecated-ota" />
+  <remove-project name="platform/bootable/recovery" />
 
   <!-- build -->
   <remove-project name="platform/build" />

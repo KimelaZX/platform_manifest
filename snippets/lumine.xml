@@ -5,6 +5,9 @@
   <project path="bionic" name="platform_bionic" groups="pdk" remote="lumine"/>
   <project path="manifest" name="platform_manifest" remote="lumine" />
 
+  <!-- bootable -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="lumine"/>
+
   <!-- build -->
   <project path="build/make" name="platform_build" groups="pdk,sysui-studio" remote="lumine">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
