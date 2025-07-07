@@ -33,6 +33,9 @@
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" />
   <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
 
+  <!-- bionic -->
+  <remove-project name="platform/bionic" />
+
   <!-- bootable -->
   <remove-project name="platform/bootable/deprecated-ota" />
 
