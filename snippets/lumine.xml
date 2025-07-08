@@ -6,6 +6,7 @@
   <project path="manifest" name="platform_manifest" remote="lumine" />
 
   <!-- bootable -->
+  <project path="bootable/deprecated-ota" name="platform_bootable_deprecated-ota" groups="pdk-cw" remote="lumine" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="lumine"/>
 
   <!-- build -->
@@ -25,18 +26,44 @@
   <!-- device -->
   <project path="device/lineage/sepolicy" name="platform_device_lineage_sepolicy" remote="lumine" />
 
+  <!-- external -->
+  <project path="external/dtc" name="platform_external_dtc" groups="pdk" remote="lumine" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="lumine" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" groups="pdk" remote="lumine" />
+  <project path="external/mksh" name="platform_external_mksh" groups="pdk" remote="lumine" />
+  <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="lumine" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" groups="pdk" remote="lumine" />
+  <project path="external/zstd" name="platform_external_zstd" groups="pdk" remote="lumine" />
+
   <!-- frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="lumine" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="lumine" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="lumine" />
 
+  <!-- hardware -->
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="lumine" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="lumine" />
+
+  <!-- kernel -->
+  <project path="kernel/configs" name="platform_kernel_configs" groups="vts,pdk" remote="lumine" />
+
   <!-- packages -->
   <project path="packages/apps/LumineSettings" name="platform_packages_apps_LumineSettings" remote="lumine" />
   <project path="packages/apps/ParanoidSense" name="platform_packages_apps_ParanoidSense" remote="lumine" />
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="lumine" />
+  <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="lumine" />
+  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="lumine" />
 
   <!-- system -->
+  <project path="system/bpf" name="platform_system_bpf" groups="pdk" remote="lumine" />
+  <project path="system/extras" name="platform_system_extras" groups="pdk" remote="lumine" />
+  <project path="system/libhidl" name="platform_system_libhidl" groups="pdk,sysui-studio" remote="lumine" />
+  <project path="system/libziparchive" name="platform_system_libziparchive" groups="pdk" remote="lumine" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="lumine" />
+  <project path="system/security" name="platform_system_security" groups="pdk" remote="lumine" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="lumine" />
+  <project path="system/update_engine" name="platform_system_update_engine" groups="pdk" remote="lumine" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="lumine" />
 
   <!-- vendor -->
   <project path="vendor/extra" name="platform_vendor_extra" remote="lumine" />
