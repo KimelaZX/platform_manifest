@@ -10,6 +10,9 @@
            fetch=".."
            review="review.lineageos.org" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -1017,5 +1020,6 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/remove.xml" />
+  <include name="snippets/pixel.xml" />
   <include name="snippets/lumine.xml" />
 </manifest>
