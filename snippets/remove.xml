@@ -66,6 +66,7 @@
   <remove-project name="platform/frameworks/opt/calendar" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
+  <remove-project name="platform/frameworks/proto_logging" />
 
   <!-- hardware -->
   <remove-project name="platform/hardware/broadcom/libbt" />
@@ -93,6 +94,7 @@
   <remove-project name="platform/packages/services/Telephony" />
 
   <!-- system -->
+  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/chre" />
   <remove-project name="platform/system/core" />
