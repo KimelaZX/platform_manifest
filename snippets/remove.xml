@@ -42,6 +42,7 @@
 
   <!-- build -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/release" />
   <remove-project name="platform/build/soong" />
 
   <!-- development -->
