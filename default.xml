@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="lumine"
+           fetch="https://github.com/LumineDroid"
+           sync-c="true"
+           revision="refs/heads/baklava" />
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
@@ -1011,4 +1016,6 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/lumine.xml" />
 </manifest>
