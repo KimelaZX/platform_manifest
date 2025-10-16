@@ -42,4 +42,5 @@
 
   <!-- vendor -->
   <project path="vendor/lineage" name="platform_vendor_lumine" remote="lumine" />
+  <project path="vendor/google/overlays" name="platform_vendor_google_overlays" remote="lumine" />
 </manifest>
