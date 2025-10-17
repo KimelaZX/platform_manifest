@@ -40,6 +40,7 @@
 
   <!-- system -->
   <project path="system/core" name="platform_system_core" groups="pdk" remote="lumine" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="lumine" />
 
   <!-- vendor -->
   <project path="vendor/lineage" name="platform_vendor_lumine" remote="lumine" />
