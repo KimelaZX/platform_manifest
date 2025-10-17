@@ -25,6 +25,9 @@
   <!-- device -->
   <project path="device/lineage/sepolicy" name="platform_device_lineage_sepolicy" remote="lumine" />
 
+  <!-- external -->
+  <project path="external/bouncycastle" name="platform_external_bouncycastle" groups="pdk" remote="lumine" />
+
   <!-- frameworks -->
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="lumine" />
 
