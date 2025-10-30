@@ -6,6 +6,10 @@
            sync-c="true"
            revision="refs/heads/bynx" />
 
+  <remote  name="lumine-devices"
+           fetch="https://github.com/LumineDroid-Devices"
+           revision="refs/heads/bynx" />
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
