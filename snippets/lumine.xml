@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- root -->
+  <project path="bionic" name="platform_bionic" remote="lumine" />
+  <project path="manifest" name="platform_manifest" remote="lumine" />
+  <project path="official_devices" name="official_devices" remote="lumine-devices" />
+
+  <!-- build -->
+  <project path="build/make" name="platform_build" remote="lumine" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" remote="lumine" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- bootable -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="lumine" />
+
+  <!-- device -->
+  <project path="device/lumine/sepolicy" name="platform_device_lumine_sepolicy" remote="lumine" />
+
+  <!-- external -->
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="lumine" />
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="lumine" />
+  <project path="external/mksh" name="platform_external_mksh" remote="lumine" />
+
+  <!-- frameworks -->
+  <project path="frameworks/av" name="platform_frameworks_av" remote="lumine" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="lumine" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="lumine" />
+
+  <!-- hardware -->
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" remote="lumine" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="lumine" />
+
+  <!-- packages -->
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="lumine" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="lumine" />
+  <project path="packages/apps/ThemePicker" name="platform_packages_apps_ThemePicker" remote="lumine" />
+  <project path="packages/modules/Bluetooth" name="platform_packages_modules_Bluetooth" remote="lumine" />
+  <project path="packages/modules/Connectivity" name="platform_packages_modules_Connectivity" remote="lumine" />
+  <project path="packages/modules/UprobeStats" name="platform_packages_modules_UprobeStats" remote="lumine" />
+
+  <!-- system -->
+  <project path="system/core" name="platform_system_core" remote="lumine" />
+  <project path="system/sepolicy" name="platform_system_sepolicy" remote="lumine" />
+  <project path="system/update_engine" name="platform_system_update_engine" remote="lumine" />
+
+  <!-- vendor -->
+  <project path="vendor/extra" name="platform_vendor_extra" remote="lumine" />
+  <project path="vendor/lumine" name="platform_vendor_lumine" remote="lumine" />
+  <project path="vendor/preference" name="platform_vendor_preference" remote="lumine" />
+  <project path="vendor/products" name="platform_vendor_products" remote="lumine" />
+</manifest>
