@@ -13,7 +13,7 @@
   <!-- LineageOS -->
   <remote name="lineage"
           fetch="https://github.com/" 
-          revision="lineage-23.0" />
+          revision="lineage-23.2" />
 
   <!-- Github -->
   <remote name="github"
