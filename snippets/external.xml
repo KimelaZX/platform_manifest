@@ -3,8 +3,21 @@
 
   <!-- external -->
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
+  <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" remote="lineage" />
+  <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
+  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" remote="lineage" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineage" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="lineage" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
+  <project path="external/zstd" name="LineageOS/android_external_zstd" groups="pdk" remote="lineage" />
 
   <!-- extract utils -->
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-23.2" />

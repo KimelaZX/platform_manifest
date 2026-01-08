@@ -23,9 +23,14 @@
   <remove-project name="platform/bootable/recovery" />
 
   <!-- external -->
+  <remove-project name="platform/external/avb" />
+  <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zstd" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av" />
