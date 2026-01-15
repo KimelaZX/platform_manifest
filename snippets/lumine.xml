@@ -28,6 +28,7 @@
   <project path="device/lumine/sepolicy" name="platform_device_lumine_sepolicy" remote="lumine" />
 
   <!-- external -->
+  <project path="external/bouncycastle" name="platform_external_bouncycastle" remote="lumine" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="lumine" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="lumine" />
   <project path="external/mksh" name="platform_external_mksh" remote="lumine" />
