@@ -60,6 +60,7 @@
 
   <!-- system -->
   <project path="system/core" name="platform_system_core" remote="lumine" />
+  <project path="system/media" name="platform_system_media" remote="lumine" />
   <project path="system/sepolicy" name="platform_system_sepolicy" remote="lumine" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="lumine" />
 
