@@ -64,10 +64,16 @@
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- system -->
+  <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/chre" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
+  <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
 
 </manifest>
