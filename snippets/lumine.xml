@@ -24,6 +24,7 @@
   </project>
 
   <!-- bootable -->
+  <project path="bootable/deprecated-ota" name="platform_bootable_deprecated-ota" remote="lumine" />
   <project path="bootable/recovery" name="platform_bootable_recovery" remote="lumine" />
 
   <!-- device -->

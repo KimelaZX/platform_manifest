@@ -22,6 +22,7 @@
   <remove-project name="platform/build/soong" />
 
   <!-- bootable -->
+  <remove-project name="platform/bootable/deprecated-ota" />
   <remove-project name="platform/bootable/recovery" />
 
   <!-- external -->
