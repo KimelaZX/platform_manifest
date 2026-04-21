@@ -104,5 +104,5 @@
   <project path="vendor/gms" name="platform_vendor_gms" remote="lumine" />
   <project path="vendor/lumine" name="platform_vendor_lumine" remote="lumine" />
   <project path="vendor/preference" name="platform_vendor_preference" remote="lumine" />
-  <project path="vendor/products" name="platform_vendor_products" remote="lumine" />
+  <project path="vendor/products" name="platform_vendor_products" remote="lumine-devices" />
 </manifest>
