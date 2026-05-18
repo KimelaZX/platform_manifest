@@ -100,6 +100,9 @@
   <project path="system/update_engine" name="platform_system_update_engine" remote="lumine" />
   <project path="system/vold" name="platform_system_vold" remote="lumine" />
 
+  <!-- sdk -->
+  <project path="axion-sdk" name="platform_axion-sdk" remote="lumine" />
+
   <!-- vendor -->
   <project path="vendor/extra" name="platform_vendor_extra" remote="lumine" />
   <project path="vendor/gms" name="platform_vendor_gms" remote="lumine" />

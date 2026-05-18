@@ -159,9 +159,6 @@
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,pakala-vendor" remote="lineage"/>
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" remote="lineage"/>
 
-  <!-- sdk -->
-  <project path="axion-sdk" name="crdroidandroid/android_axion-sdk" remote="github" revision="16.0" />
-
   <!-- vendor -->
   <project path="vendor/apn" name="LineageOS/android_vendor_apn" revision="main" remote="lineage"/>
 
