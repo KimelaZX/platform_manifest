@@ -62,10 +62,13 @@
 
   <!-- packages -->
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
+  <project path="packages/apps/AppLocker" name="crdroidandroid/android_packages_apps_AppLocker" remote="github" revision="16.0" />
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="lineage" />
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
+  <project path="packages/apps/ColumbusService" name="crdroidandroid/android_packages_apps_ColumbusService" remote="github" revision="16.0" />
   <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" remote="lineage"/>
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="lineage" />
+  <project path="packages/apps/Sandbox" name="crdroidandroid/android_packages_apps_Sandbox" remote="github" revision="16.0" />
   <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" remote="lineage" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="lineage" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
