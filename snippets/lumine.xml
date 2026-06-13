@@ -35,6 +35,7 @@
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="lumine" />
   <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="lumine" />
   <project path="external/mksh" name="platform_external_mksh" remote="lumine" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant_8" remote="lumine" />
 
   <!-- frameworks -->
   <project path="frameworks/av" name="platform_frameworks_av" remote="lumine" />
