@@ -1116,4 +1116,10 @@
   </project>
   <!-- END open-source projects -->
 
+  <!-- LumineDroid -->
+  <include name="snippets/remote.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/external.xml" />
+  <include name="snippets/lumine.xml" />
+
 </manifest>
