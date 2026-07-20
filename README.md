@@ -3,7 +3,7 @@
 **To initialize your local repository using the LumineDroid , use a command like this** :
 
 ```bash
-repo init -u https://github.com/LumineDroid/platform_manifest -b bellflower --git-lfs
+repo init -u https://github.com/KimelaZX/platform_manifest -b bellflower --git-lfs
 ```
 
 **And then sync up** :
